@@ -1,0 +1,10 @@
+langchain>=1.3.11
+langchain-core>=1.4.8
+langchain-ollama>=1.1.0
+requests>=2.34.2
+faster-whisper>=1.2.1
+openai-whisper>=20250625
+transformers>=4.46.0
+sounddevice>=0.5.5
+soundfile>=0.14.0
+numpy>=2.4.6

@@ -1,0 +1,42 @@
+# Local secrets and runtime environment
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python cache/build artifacts
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and dependency folders
+venv/
+.venv/
+**/venv/
+**/.venv/
+node_modules/
+**/node_modules/
+
+# Local model/cache/runtime output
+.cache/
+**/.cache/
+STT_Test/models/
+STT_Test/esp32_temp/
+*.wav
+*.ogg
+*.opusframes
+*.log
+*.err.log
+
+# Local tunnel binaries/config may contain machine-specific auth.
+tools/ngrok/
+
+# Keep sibling projects managed by their own repositories.
+OmniBear/omni-bear-mobile/
+xiaozhi-esp32/
